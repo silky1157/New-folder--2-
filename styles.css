@@ -1,0 +1,143 @@
+.container1 {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(70, 50, 55);
+}
+
+.hero-text {
+    transition: transform 0.5s ease;
+}
+
+.hero-text:hover {
+    transform: scale(1.05);
+}
+
+.inter-font {
+    color: rgb(230, 215, 200);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.info {
+    width: 850px;
+    height: 550px;
+    background-color: rgb(50, 40, 40);
+    border: none;
+    transition: transform 0.5s ease;
+    padding: 20px;
+}
+
+.info:hover {
+    transform: scale(1.05);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.card {
+    width: 850px;
+    height: 230px;
+    border-radius: 15px;
+    background-color: rgb(220, 205, 207);
+    border: none;
+    padding: 10px;
+}
+
+.card-text {
+    color: rgb(90, 50, 65);
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    margin-top: 20px;
+    height: 160px;
+    width: 320px;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+.info-text-1 {
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.info-text-2,
+.info-text-3 {
+    font-size: 48px; 
+    font-weight: 800;
+}
+
+.info-text-4 {
+    font-size: 16px; 
+    margin: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .container1 {
+        height: 500px;
+    }
+
+    .info-container {
+        height: 650px;
+    }
+
+    .img {
+        margin-bottom: 60px;
+    }
+
+    .card {
+        height: 280px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    .info-text-1 {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+    
+    .info-text-2,
+    .info-text-3 {
+        font-size: 38px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .info-text-4 {
+        font-size: 14px;
+        margin: 50px;
+    }
+}
